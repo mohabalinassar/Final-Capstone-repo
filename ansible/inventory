@@ -1,0 +1,2 @@
+[ubuntu]
+<ip of your instnace> ansible_user=ubuntu ansible_ssh_private_key_file=<ADD path to the key>
