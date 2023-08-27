@@ -32,7 +32,7 @@ Run the following Ansible playbook commands to install Jenkins, Docker, AWS CLI,
    ansible-playbook awscli.yml -i inventory.txt
    ansible-playbook kubectl.yml -i inventory.txt
    ```
-##Step 3: Unlock Jenkins
+## Step 3: Unlock Jenkins
 Connect to the Jenkins server via SSH and run the following commands to retrieve the initialAdminPassword:
 
    ```shell
